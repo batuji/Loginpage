@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255); /* Set background color for the whole page */
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(0, 0, 0);
+}
+
+.custom-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(71, 217, 209); /* Set a background color for the login container */
+}
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
